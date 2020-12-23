@@ -22,6 +22,7 @@ export class AppComponent implements OnInit {
 
 
   constructor(private taskService: TaskControllerService) {
+    this.tasks = []
 
   }
 
