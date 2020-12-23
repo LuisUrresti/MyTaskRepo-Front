@@ -26,7 +26,7 @@ import { Configuration }                                     from '../configurat
 @Injectable()
 export class TaskControllerService {
 
-    protected basePath = 'http://luis-task-app.azurewebsites.net'; //'http://localhost:8080';
+    protected basePath =  'http://taskapp-api.azure-api.net/';//'http://luis-task-app.azurewebsites.net'; //'http://localhost:8080';
     public defaultHeaders = new HttpHeaders();
     public configuration = new Configuration();
 
